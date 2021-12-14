@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+    padding: 0;
+	
+}
+
+
+#logo{
+    color: rgb(86, 14, 153);    
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+#navbar{
+    display: flex;
+    color: white;
+    background: rgb(86, 14, 153);
+    list-style-type: none;
+    justify-content: center;
+    box-shadow: 0 0 5px 5px rgb(4, 11, 109);
+    
+}
+#navbar li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: larger;
+    padding: 4px;
+    border:solid 1px black;
+    border-radius: 3px;
+}
+#navbar li:hover{
+    background-color: rgb(111, 9, 206);
+    transform: scale(1.1);
+}
+
+.dontDisplay{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
+
+.infobox{
+    margin-top: 20px;
+    line-height: 25px;
+    height:200px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(243, 190, 243,0.2);
+    box-shadow: 0 0 4px 2px violet;
+}
+
+
+#imageCollection{
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(243, 190, 243,0.2);
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0 0 4px 2px violet;
+}
+.imgBox{
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.imgBox img{
+    height: 200px;
+    width: 200px;
+}
